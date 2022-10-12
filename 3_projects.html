@@ -1,0 +1,119 @@
+<!--
+_______ FINAL WEBSITE PROJECT _______
+
+- Deploying a website (50 Points)
+- Minimum of 5 pages (100 Points)
+- Design/Responsiveness (CSS Grid small, medium and large devices and use of @media) (50 Points)
+- JS/jQuery and jQuery Plugins JS Libraries (50 Points)
+Creativity (50 Points)
+- Use Jquery event listeners, JS functions and arrays to add thoughtful interaction to your website
+- Content quality – Clear message (what are you trying to saying)
+
+*** Posting and formatting content ***
+  Your grade will be based on the following parameters:
+      - Make sure that images are properly scaled and fit in your layout
+      - Making sure your images and content express the intent of your site
+      - Use HTML structure and semantic tags to provide information hierarchy
+      - Use CSS tags such as, colors, fonts, grid, etc to create a theme and design for your website.
+      - Use HTML and CSS tags to create professional design and layout for your project.
+-->
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/skippr.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title>J. Rives Music Projects</title>
+  </head>
+
+<body>
+
+<div class="wrapper">
+
+  <div class= "top_section">
+
+    <header class= "MainPhotoArea">
+
+      <div class="mainphotoskippr" id="theTarget">
+
+        <div style="background-image: url(assets/images/main1.png)"></div>
+        <div style="background-image: url(assets/images/main2.png)"></div>
+        <div style="background-image: url(assets/images/main3.png)"></div>
+        <div style="background-image: url(assets/images/main4.png)"></div>
+        <div style="background-image: url(assets/images/main5.png)"></div>
+
+      </div>
+<!--div MainPhotoSkippr close^^-->
+    </header>
+<!--MainPhotoArea header close^^-->
+  </div>
+<!--div top_section close^^-->
+
+<div class="navcontainer">
+      <nav class="menu">
+
+        <ul id="menu-list">
+            <a href="index.html"><li>Home</li></a>
+            <a href="2_media.html"><li>Media</li></a>
+            <a href="3_projects.html"><li>Projects</li></a>
+            <a href="4_transcriptions.html"><li>Transcriptions</li></a>
+            <a href="5_digital_resume.html"><li>Digital Resume</li></a>
+            <a href="index.html#contact"><li>Contact</li></a>
+        </ul>
+      </nav>
+</div>
+<!--navcontainer div close^^-->
+
+<section class="projects">
+<h2>PROJECTS</h2>
+<br>
+<embed src="J.Rives_VocoLoco_Model.pdf" width="100%" height="990px" />
+<br>
+<h1>MMI-401: Audio Electronics Final Project</h1>
+<br>
+<br>
+<p>This is my culminating project for the Audio Electronics course at UM. Essentially, I modeled the "VOCO-LOCO" Mic Preamp and Effects Loop pedal by creating my own digital circuitry schematics, tested them with a simulation based circuitry diagnostic & testing software, and then proved the theoretical mathematics behind each components values and their roles within the schematic. The in-depth research can be viewed in document above. You can <a href="J.Rives_VocoLoco_Model.pdf" target="_blank">click here</a> to see the PDF if it does not automatically load to the page.</p>
+<br>
+</section>
+<!--projects section close^^-->
+
+<br>
+
+  <section class="contact" id="contact">
+      <h2>CONTACT</h2>
+
+<img src="assets/images/contact.png">
+
+  </section>
+<!--contact section close^^-->
+
+</div>
+<!--div wrapper close^^-->
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script type="text/javascript" src="assets/js/main.js"></script>
+
+  <script src="assets/js/skippr.js"></script>
+
+
+
+              <!-- Global site tag (gtag.js) - Google Analytics -->
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130652920-1"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-130652920-1');
+          </script>
+
+
+</body>
+</html>
